@@ -6,16 +6,12 @@
 }
 
 /* ---- Cabeçalho ---- */
-#barra-navegacao {
-    align-items: center;
-    padding: 16px 0;  
-}
-
 /**** navbar ****/
 #navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 16px 0;  
 }
 
 #navbar ul {
