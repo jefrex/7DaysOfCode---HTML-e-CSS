@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Inter', sans-serif;
+}
+
+/* ---- Cabeçalho ---- */
+#barra-navegacao {
+    align-items: center;
+    padding: 16px 0;  
+}
+
+/**** navbar ****/
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+.nav-itens {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.nav-itens a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #667085;
+}
+
+/* botões */
+.nav-button button {
+    border: none;
+    font-size: 1em;
+    font-weight: 500;
+    color: #667085;
+    background: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#cadastrar {
+    background-color: #8E2424;
+    color: #FFF;
+    margin-left: 8px;
+    padding: 10px 18px;
+}
