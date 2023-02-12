@@ -67,6 +67,7 @@
 #sobre-nos span {
     color: var(--main-color);
     font-weight: 600;
+    font-size: 1em;
     line-height: 24px;
 }
 
@@ -88,6 +89,8 @@
 #metricas {   
     display: flex;
     padding: 0 0 6em;
+    width: 90vw;
+    margin: 0 auto;
 }
 
 .metricas-lista {
@@ -95,8 +98,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     margin: 0 auto;
-    gap: 3em;
-
+    gap: 2em;
 }
 
 .metricas-itens {
@@ -122,4 +124,58 @@
     color: #667085;
     font-size: 1em;
     font-weight: 400;
+}
+
+/* conteúdo principal (main) */
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    padding: 6em 0;    
+}
+
+/*  procurando por talentos */
+#procurando-talentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 615px;
+}
+
+#container-informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-informacoes span {
+    color: var(--main-color);
+    background: rgba(142, 36, 36, 0.05);
+    width: 125px;
+    padding: 4px;
+    border-radius: 1em;
+    font-size: 0.875em;
+    font-weight: 500;
+    line-height: 1.25em;
+}
+
+#container-informacoes h2 {
+    color: #101828;
+    font-size: 2.25em;
+    font-weight: 600;
+    line-height: 2.55em;
+}
+
+#container-informacoes p {
+    color: #667085;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.875em;
+}
+
+#reuniao {
+    max-width: 90vw;
+    height: 400px;
+    object-fit: cover;
 }
