@@ -56,12 +56,11 @@
 
 /* sobre nós */
 #sobre-nos {
-    /* height: 410px; */
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 7em 0;
+    padding: 6em 0;
     gap: 1.5em;
 }
 
@@ -83,4 +82,44 @@
     font-weight: 400;
     line-height: 30px;
     max-width: 791px;
+}
+
+/* metrícas */
+#metricas {   
+    display: flex;
+    padding: 0 0 6em;
+}
+
+.metricas-lista {
+    display: flex; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 3em;
+
+}
+
+.metricas-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    width: 280px;
+}
+
+.metricas-titulo {
+    font-size: 3.75em;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.metricas-subTitulo {
+    color: #101828;
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.metricas-paragrafo {
+    color: #667085;
+    font-size: 1em;
+    font-weight: 400;
 }
