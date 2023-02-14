@@ -106,6 +106,7 @@
     flex-direction: column;
     gap: 1.25em;
     width: 280px;
+    list-style: none;
 }
 
 .metricas-titulo {
@@ -131,6 +132,8 @@
     display: flex;
     flex-direction: column;
     padding: 6em 0;    
+    gap: 4em;
+    align-items: center;
 }
 
 /*  procurando por talentos */
@@ -178,4 +181,58 @@
     max-width: 90vw;
     height: 400px;
     object-fit: cover;
+}
+
+/* vagas */
+#vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 768px;
+    gap: 5em;
+    margin: 0 auto;
+}
+
+.oportunidades-disponiveis {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.oportunidades-disponiveis h4{
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 1.875em;
+    color: #101828;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    gap: 1.5em;
+    border: 1px solid #EAECF0;
+    border-radius: 1em;
+    padding: 1.5em 1.5em 1.75em;
+}
+
+.descricao h4 {
+    font-size: 1.125em;
+    font-weight: 1.75em;
+    font-weight: 500;
+    color: #101828;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+.informacoes span {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #667085;
 }
