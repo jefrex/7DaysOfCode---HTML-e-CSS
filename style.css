@@ -236,3 +236,68 @@
     font-weight: 500;
     color: #667085;
 }
+
+/* Depoimentos */
+#depoimentos {
+    display: flex;
+    padding: 0 0 6em;
+    margin: 0 auto;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 1216px;
+    padding: 4em;
+    gap: 2em;
+    background-color: rgba(196, 25, 25, 0.03);
+    border-radius: 1em;
+}
+
+.citacao-e-subtitulo, .atribuicao {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    align-items: center;
+}
+
+.citacao-e-subtitulo span{
+    color: #8E2424;    
+    font-size: 0.875em;
+    line-height: 1.25em;
+    font-weight: 600;    
+}
+
+.citacao-e-subtitulo h2 {
+    font-size: 2.25em;
+    font-weight: 500;
+    color: #101828;
+    letter-spacing: -0.02em;
+}
+
+.atribuicao > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.avatar {
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.atribuicao-subtitulo {
+    color: #101828;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.atribuicao-cargo {
+    color: #667085;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 1.25em;
+}
